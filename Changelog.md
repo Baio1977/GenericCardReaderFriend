@@ -1,5 +1,9 @@
 #  Changelog
 
+### v1.0.5
+- Add support for macOS Sonoma Sequoia.
+- Recomplie the kext with Lilu v1.6.9
+  
 #### v1.0.4
 - Add support for macOS Ventura.
 
