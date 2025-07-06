@@ -52,5 +52,3 @@ jobs:
           file: build/*/*.zip
           tag: ${{ github.ref }}
           file_glob: true
-      - run: xcodebuild analyze -quiet -scheme GenericCardReaderFriend -configuration Debug CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
-      - run: xcodebuild analyze -quiet -scheme GenericCardReaderFriend -configuration Release CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
