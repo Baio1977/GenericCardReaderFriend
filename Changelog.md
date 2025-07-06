@@ -1,7 +1,7 @@
 #  Changelog
 #### v1.0.5
-- Add support for macOS Sonoma - Sequoia.
-- Recomplie the kext with Lilu v1.7.0
+- Add support for macOS Sonoma-Sequoia-Tahoe.
+- Recomplie the kext with Lilu v1.7.1
 - Update Changelog.
 - Update Readme.
 - Create main.yml for Actions
