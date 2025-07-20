@@ -1,4 +1,5 @@
 #  Generic Card Reader Driver Friend
+[![CI-GenericCardReaderFriend](https://github.com/Baio1977/GenericCardReaderFriend/actions/workflows/main.yml/badge.svg)](https://github.com/Baio1977/GenericCardReaderFriend/actions/workflows/main.yml)
 
 ## Introduction
 
