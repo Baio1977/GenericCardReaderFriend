@@ -7,6 +7,7 @@ A Lilu plugin that makes System Information recognize your builtin USB card read
 ![](Assets/Screenshot.png)
 
 ## Supported Systems
+- macOS Tahoe
 - macOS Sequoia
 - macOS Sonoma
 - macOS Ventura
@@ -19,7 +20,7 @@ A Lilu plugin that makes System Information recognize your builtin USB card read
 - macOS El Capitan
 
 ## Dependencies
-- [Lilu](https://github.com/acidanthera/Lilu) v1.7.0 or later.
+- [Lilu](https://github.com/acidanthera/Lilu) v1.7.1 or later.
 
 ## Limitations & Notes
 - This plugin contains a dummy driver that attaches to your USB card reader and injects necessary properties.
