@@ -19,6 +19,8 @@ jobs:
   build:
     name: Build
     runs-on: macos-13
+    permissions:
+     contents: write
     env:
       JOB_TYPE: BUILD
     steps:
@@ -44,7 +46,7 @@ jobs:
         with:
           name: Artifacts
           path: build/*/*.zip
-      - name: Upload to Release
+      - name: Upload files to a GitHub release
         if: github.event_name == 'release'
         uses: svenstaro/upload-release-action@v2.11.2
         with:
